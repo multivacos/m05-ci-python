@@ -56,9 +56,9 @@ class TestDividir:
             dividir(5, 0)
 
 
-def test_potencia_positiva(self):
-    assert potencia(2, 3) == 8
-
-
-def test_potencia_cero(self):
-    assert potencia(5, 0) == 1
+class TestPotencia:
+    def test_potencia_positiva(self):
+        assert potencia(2, 3) == 8
+        
+    def test_potencia_cero(self):
+        assert potencia(5, 0) == 1
